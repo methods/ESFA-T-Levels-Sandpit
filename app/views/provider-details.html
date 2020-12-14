@@ -1,0 +1,64 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<main class="govuk-main-wrapper">
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <h1 class="govuk-heading-xl">Statistical Annex</h1>
+            <h2 class="govuk-heading-m">Provider Details</h2>
+            <p>Please ensure that your details are correct</p>
+        </div>
+    </div>
+
+
+<dl class="govuk-summary-list">
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">
+      UPIN
+    </dt>
+    <dd class="govuk-summary-list__value">
+      105110
+    </dd>
+    <dd class="govuk-summary-list__actions">
+      <a href="upin-entry.html" a class="govuk-link" href="#">
+        Change<span class="govuk-visually-hidden"> UPIN</span>
+      </a>
+    </dd>
+  </div>
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">
+      Provider name
+    </dt>
+    <dd class="govuk-summary-list__value">
+     Sandwell College
+    </dd>
+    <dd class="govuk-summary-list__actions">
+    </dd>
+  </div>
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">
+      Region
+    </dt>
+    <dd class="govuk-summary-list__value">
+      West Midlands
+    </dd>
+    <dd class="govuk-summary-list__actions">
+    </dd>
+  </div>
+</dl>
+
+<a href="pathways.html" class="govuk-button" data-module="govuk-button">
+  Save and continue
+</button>
+</a>
+
+
+</main>
+
+{% endblock %}

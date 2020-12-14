@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<main class="govuk-main-wrapper">
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">T-Levels</h1>
+      <h2 class="govuk-heading-m">Delivery year </h2>
+    </div>
+  </div>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <p>Select the year that the T-Level will be delivered </p> 
+    </div>
+  </div>
+
+  <div class="govuk-form-group">
+    <fieldset class="govuk-fieldset">
+      <div class="govuk-radios">
+        <div class="govuk-radios__item">
+          <input class="govuk-radios__input" id="2021-2022" name="delivery-year" type="radio" value="2021-2022">
+          <label class="govuk-label govuk-radios__label" for="delivery-year">
+            2021 - 2022
+          </label>
+        </div>
+        <div class="govuk-radios__item">
+          <input class="govuk-radios__input" id="2022-2023" name="delivery-year" type="radio" value="2022-2023">
+          <label class="govuk-label govuk-radios__label" for="delivery-year">
+            2022 - 2023
+          </label>
+        </div>
+        <div class="govuk-radios__item">
+          <input class="govuk-radios__input" id="2023-2024" name="delivery-year" type="radio" value="2023-2024">
+          <label class="govuk-label govuk-radios__label" for="delivery-year">
+            2023 - 2024 
+          </label>
+        </div>
+        <div class="govuk-radios__item">
+          <input class="govuk-radios__input" id="2024-2025" name="delivery-year" type="radio" value="2024-2025">
+          <label class="govuk-label govuk-radios__label" for="delivery-year">
+            2024-2025
+          </label>
+        </div>
+      </div>
+    </fieldset>
+  </div>
+
+  <a href="digital-route-subjects.html" class="govuk-button" data-module="govuk-button">
+    Continue
+    </button>
+  </a>
+
+</main>
+
+{% endblock %}
