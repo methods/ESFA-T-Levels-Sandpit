@@ -1,0 +1,106 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<main class="govuk-main-wrapper">
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <h1 class="govuk-heading-xl">T-Levels - Digital Route</h1>
+
+        </div>
+    </div>
+
+    <dl class="govuk-summary-list">
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+                UPIN
+            </dt>
+            <dd class="govuk-summary-list__value">
+                105110
+            </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+                Provider name
+            </dt>
+            <dd class="govuk-summary-list__value">
+                Sandwell College
+            </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+                Region
+            </dt>
+            <dd class="govuk-summary-list__value">
+                West Midlands
+            </dd>
+        </div>
+    </dl>
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <h2 class="govuk-heading-m">Planned learner numbers per subject [MONTH] [YEAR]</h2>
+        </div>
+    </div>
+
+
+    <dl class="govuk-summary-list">
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+                Digital, Production, Design and Development
+            </dt>
+            <dd class="govuk-summary-list__value">
+                5
+            </dd>
+            <dd class="govuk-summary-list__actions">
+                <a class="govuk-link" href="digital-route-subjects.html">
+                    Change<span class="govuk-visually-hidden">Digital, Production, Design and Development</span>
+                </a>
+            </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+                Digital Support and Services
+            </dt>
+            <dd class="govuk-summary-list__value">
+                5
+            </dd>
+            <dd class="govuk-summary-list__actions">
+                <a class="govuk-link" href="digital-route-subjects.html">
+                    Change<span class="govuk-visually-hidden"> Digital Support and Services</span>
+                </a>
+            </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+                Digital Business Services
+            </dt>
+            <dd class="govuk-summary-list__value">
+                7
+            </dd>
+            <dd class="govuk-summary-list__actions">
+                <a class="govuk-link" href="digital-route-subjects.html">
+                    Change<span class="govuk-visually-hidden">Digital Business Services</span>
+                </a>
+            </dd>
+        </div>
+    </dl>
+
+
+    <a href="#" class="govuk-button" data-module="govuk-button">
+        Submit
+        </button>
+    </a>
+    </div>
+
+
+</main>
+
+
+
+{% endblock %}
